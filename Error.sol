@@ -30,13 +30,5 @@ contract Error {
         assert(num == 0);
     }
 
-    // custom error
-    error InsufficientBalance(uint balance, uint withdrawAmount);
-
-    function testCustomError(uint _withdrawAmount) public view {
-        uint bal = address(this).balance;
-        if (bal < _withdrawAmount) {
-            revert InsufficientBalance({balance: bal, withdrawAmount: _withdrawAmount});
-        }
-    }
+    
 }
