@@ -4,8 +4,7 @@ This Solidity program is a  "Error Handling " program that demonstrates the conc
 
 ## Description
 
-This program is a  contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract has a multiple function in which we can explore all the three statements of errors which is Require() , Assert() and Revert().
-
+This program is a  contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract has a multiple function in which we can explore all the three statements of errors which is Require().
 ## Getting Started
 
 ### Executing program
@@ -55,7 +54,10 @@ To compile the code, click on the "Solidity Compiler" tab in the left-hand sideb
 
 Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar.
 
-Once the contract is deployed, you can interact with it by calling the testRequire , testAssert and testRevert function. and you acn test all function it is working properley or not.
+This contract represents a simple voting system where users can vote yes or no on a 
+proposal. Each user can only vote once. The contract keeps track of the number of yes and
+no votes, and users can query the result of the vote through the getResult function.
+
 
 ## Authors
 
