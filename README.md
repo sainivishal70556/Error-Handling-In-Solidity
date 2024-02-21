@@ -58,6 +58,9 @@ This contract represents a simple voting system where users can vote yes or no o
 proposal. Each user can only vote once. The contract keeps track of the number of yes and
 no votes, and users can query the result of the vote through the getResult function.
 
+## Note 
+Due to lack of time i only require statement explain in the video rest of statements I was used in another contract which i was already atteched in the github reposatory.
+
 
 ## Authors
 
